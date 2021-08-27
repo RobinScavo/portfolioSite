@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react'
 import PropTypes from 'prop-types'
 
-const GalleryItem = ({id, source, thumbnail, caption, description, position, toggleLightbox}) => {
+const GalleryItem = ({id, source, thumbnail, link, caption, description, position, toggleLightbox}) => {
 
     const onClick = useCallback((e) => {
         e.preventDefault()
@@ -16,8 +16,15 @@ const GalleryItem = ({id, source, thumbnail, caption, description, position, tog
         >
         <img src={thumbnail} />
         </a>
-
-        <h3>{caption}</h3>
+        <a
+            onClick={() => window.open(`${link}`)}
+            className='projectLink'
+            // style={{
+            //     borderBottom:'none',
+            //     cursor:'pointer',
+            // }}
+        >{caption}</a>
+        {/* <h5>Live Site</h5> */}
         <p>{description}</p>
     </article>)
 };
@@ -27,6 +34,7 @@ GalleryItem.propTypes = {
   id: PropTypes.string.isRequired,
   source: PropTypes.string.isRequired,
   thumbnail: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
   caption: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   position: PropTypes.string.isRequired,

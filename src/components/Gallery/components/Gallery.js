@@ -22,12 +22,13 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
           source={obj.source}
           thumbnail={obj.thumbnail}
           caption={obj.caption}
+          link={obj.link}
           description={obj.description}
           position={obj.position}
           toggleLightbox={obj.toggleLightbox}
           position={i}
           toggleLightbox={toggleLightbox}
-        />); 
+        />);
         })}
         </div>
       )}

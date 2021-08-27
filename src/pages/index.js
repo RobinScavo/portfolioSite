@@ -35,7 +35,7 @@ const HomeIndex = () => {
           <ul className="actions">
             <li>
               <a href="#" className="button">
-                Learn More
+                Resume
               </a>
             </li>
           </ul>
@@ -46,21 +46,20 @@ const HomeIndex = () => {
 
           <Gallery />
 
-          <ul className="actions">
+          {/* <ul className="actions">
             <li>
               <a href="#" className="button">
-                Full Portfolio
+                My Git Hub
               </a>
             </li>
-          </ul>
+          </ul> */}
         </section>
 
         <section id="three">
           <h2>Get In Touch</h2>
           <p>
-            Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-            magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-            vulputate lorem neque lorem ipsum dolor.
+            Feel free to contact me with questions, comments or job offers. I'm
+            also happy to help any aspiring software developers with advice.
           </p>
           <div className="row">
             <div className="8u 12u$(small)">
@@ -104,9 +103,9 @@ const HomeIndex = () => {
                   <h3 className="icon fa-home">
                     <span className="label">Address</span>
                   </h3>
-                  1234 Somewhere Rd.
+                  {/* 1234 Somewhere Rd. */}
                   <br />
-                  Nashville, TN 00000
+                  Missoula, MT
                   <br />
                   United States
                 </li>
@@ -114,13 +113,13 @@ const HomeIndex = () => {
                   <h3 className="icon fa-mobile">
                     <span className="label">Phone</span>
                   </h3>
-                  000-000-0000
+                  406-203-2686
                 </li>
                 <li>
                   <h3 className="icon fa-envelope-o">
                     <span className="label">Email</span>
                   </h3>
-                  <a href="#">hello@untitled.tld</a>
+                  <a href="#">sirscavo@gmail.com</a>
                 </li>
               </ul>
             </div>
