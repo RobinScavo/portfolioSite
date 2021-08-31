@@ -1512,22 +1512,22 @@
 	}
 
 	.skills {
+		display: flex;
+		flex-direction: column;
+
 		width: 35%;
-		margin-left: 80px;
+		margin-left: 10px;
 		list-style-type: none;
-		// background-color: lightgoldenrodyellow;
 		padding-top: 15px;
+		// background-color: lightsalmon;
 	}
 
-	// ul.ratings > li {
-	// 	margin-bottom: 10px;
-	// }
-
-	ul.skills > li > .icon {
+	ul.skills > li > .icon,
+	.testimonialChevron {
 		color: #49bf9d;
 		font-size: 10px;
 		margin-right: 5px;
-		margin-left: 20px;
+		margin-left: 0px;
 	}
 
 	.ratings {
@@ -1536,7 +1536,7 @@
 		color: #49bf9d;
 		line-height: 59px;
 		font-size: 14px;
-		// background-color: blue;
+		// background-color: lightpink;
 	}
 
 	.ratings > li > .icon {
@@ -1544,7 +1544,7 @@
 	}
 
 	.empty {
-		color: #efefef;
+		color: #a2a2a2;
 	}
 
 	.mediumText {
@@ -1555,6 +1555,37 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+	}
+
+	.testimonials {
+		list-style-type: none;
+		text-align: center;
+	}
+
+	.up {
+		margin-right: 4px;
+		color: #49bf9d;
+		font-size: 14px;
+	}
+
+	.italics {
+		font-style: italic;
+		line-height: 30px;
+	}
+
+	.upperDiv {
+		text-align: left;
+	}
+
+	.speaker{
+		margin-bottom: 20px;
+		border-bottom: 1px solid #efefef;
+		padding: 14px;
+	}
+
+	#bottomTestimonial {
+		// margin-bottom: -20px;
+		border-bottom: none;
 	}
 
 @media screen and (max-width: 480px) {

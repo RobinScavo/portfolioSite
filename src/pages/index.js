@@ -117,9 +117,45 @@ const HomeIndex = () => {
         <section id='four'>
           <h2 className='mediumText'>Testimonials</h2>
           <ul className='testimonials'>
-            <li><span className='italics'>"Robin is great"</span>-Bob</li>
-            <li><span className='italics'>"Robin is great"</span>-Bob</li>
-            <li><span className='italics'>"Robin is great"</span>-Bob</li>
+            <li>
+              <div className='upperDiv'>
+                <i class="testimonialChevron icon fa-chevron-right"></i>
+                <span className='italics'>"Out of the many people I worked with at App Academy,
+                Robin was one of the most team-oriented. He always brought enthusiasm
+                to our project and kept us on track."</span>
+              </div>
+              <div className='speaker'>
+                <i class='up icon fa-tree'></i>
+                Maximos Salzman, software engineer at Epic Video Technologies
+              </div>
+            </li>
+            <li>
+              <div className='upperDiv'>
+                <i class="testimonialChevron icon fa-chevron-right"></i>
+                <span className='italics'>Robin comes with my highest recommendations.
+                He was a joy to work with and brings an energy and passion to the team
+                that few do.</span>
+              </div>
+              <div className='speaker'>
+                <i class='up icon fa-tree'></i>
+                Kyle Barthelmes, software engineer at Redfin
+              </div>
+            </li>
+            <li>
+              <div className='upperDiv'>
+                <i class="testimonialChevron icon fa-chevron-right"></i>
+                <span className='italics'>"Robin is a fantastic gentlemen! Everything about him is great.
+                He is nice, friendly and kind to everyone in the hotel. He always keep
+                the room clean and with clear information. Life is always good when
+                meet up with him and ask him if he has any concern and return back with
+                everything is fantastic. I would strongly recommend Robin to any host
+                around the world."</span>
+              </div>
+              <div id='bottomTestimonial' className='speaker'>
+                <i class='up icon fa-tree'></i>
+                Tre Sok, hotel manager in Krong Siem Reap, Cambodia
+              </div>
+            </li>
           </ul>
         </section>
 

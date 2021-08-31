@@ -19,7 +19,7 @@ export const DEFAULT_IMAGES = [
       thumbnail: thumb01,
       link: 'https:colorcrusher.herokuapp.com',
       caption: 'Color Crusher',
-      technologies: 'React  |  React Contex API  |  Firebase  |  Passport.js.',
+      technologies: 'React  +  React Contex API  +  Firebase  +  Passport.js.',
       description: '- CSS instructional game that helps developers recognize color values and choose color schemes.',
     },
     {
@@ -28,7 +28,7 @@ export const DEFAULT_IMAGES = [
       thumbnail: thumb02,
       link: 'https://github.com/RobinScavo/color--crusher',
       caption: 'Custom Github Read-me',
-      technologies: 'SVG  |  Inline CSS.',
+      technologies: 'SVG  +  Inline CSS.',
       description: "- Utilized SVG to bypass Github's removal of inline styling to create a unique Read-me.",
     },
     {
@@ -37,7 +37,7 @@ export const DEFAULT_IMAGES = [
       thumbnail: thumb03,
       link: 'https://openbook-app.herokuapp.com/',
       caption: 'Open Book',
-      technologies: 'React  | Redux  |  Flask  |  SqlAlchemy  |  Heroku.',
+      technologies: 'React  + Redux  +  Flask  +  SqlAlchemy  +  Heroku.',
       description: '- Group project for which I built the UI. It allows teachers to form online classrooms, create interactive lessons and view student progress.'
     },
     // {
