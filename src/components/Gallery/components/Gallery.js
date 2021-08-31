@@ -23,6 +23,7 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
           thumbnail={obj.thumbnail}
           caption={obj.caption}
           link={obj.link}
+          technologies={obj.technologies}
           description={obj.description}
           position={obj.position}
           toggleLightbox={obj.toggleLightbox}

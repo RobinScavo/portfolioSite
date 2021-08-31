@@ -13,9 +13,11 @@ const Header = () => (
         <strong>Robin Scavo </strong>
       </h1>
       <h1>
-        Software Engineer.
+        Software Engineer
       </h1>
-        {/* crafted by <a href="http://html5up.net">HTML5 UP</a>. */}
+      <h1>
+        Web Developer
+      </h1>
     </div>
     <Footer />
   </header>

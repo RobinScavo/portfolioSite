@@ -5,15 +5,16 @@ const Footer = () => (
     <div className="inner">
       <ul className="icons">
         <li>
-          <a onClick={() => window.open('https://github.com/RobinScavo')} className="icon fa-github"><span className="label">Github</span></a>
+          <a
+            onClick={() => window.open('https://github.com/RobinScavo')}
+            className="icon fa-github"
+          ><span className="label">Github</span></a>
         </li>
         <li>
           <a
             onClick={() => window.open('https://www.linkedin.com/in/robin-scavo-0617881b5/')}
             className="icon fa-linkedin"
-          >
-             <span className="label">Linked In</span>
-          </a>
+          ><span className="label">Linked In</span></a>
         </li>
         <li>
           <a href={`mailto:sirscavo@gmail.com`} className="icon fa-envelope-o">
