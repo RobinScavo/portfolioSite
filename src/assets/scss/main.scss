@@ -1514,29 +1514,37 @@
 	.skills {
 		display: flex;
 		flex-direction: column;
-
-		width: 35%;
-		margin-left: 10px;
+		width: 50%;
 		list-style-type: none;
 		padding-top: 15px;
-		// background-color: lightsalmon;
 	}
 
-	ul.skills > li > .icon,
+
+	ul.skills > li > .icon {
+		color: #49bf9d;
+		font-size: 10px;
+		margin-right: 5px;
+		margin-left: 65%;
+	}
+
 	.testimonialChevron {
 		color: #49bf9d;
 		font-size: 10px;
 		margin-right: 5px;
-		margin-left: 0px;
+	}
+
+	@media screen and (max-width: 580px) {
+		ul.skills > li > .icon {
+			margin-left: 30%;
+		}
 	}
 
 	.ratings {
-		width: 65%;
+		width: 50%;
 		list-style-type: none;
 		color: #49bf9d;
 		line-height: 59px;
 		font-size: 14px;
-		// background-color: lightpink;
 	}
 
 	.ratings > li > .icon {
