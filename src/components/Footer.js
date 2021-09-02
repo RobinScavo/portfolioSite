@@ -6,14 +6,16 @@ const Footer = () => (
       <ul className="icons">
         <li>
           <a
-            onClick={() => window.open('https://github.com/RobinScavo')}
+            href='https://github.com/RobinScavo' target='_blank'
             className="icon fa-github"
+            rel="noreferrer"
           ><span className="label">Github</span></a>
         </li>
         <li>
           <a
-            onClick={() => window.open('https://www.linkedin.com/in/robin-scavo-0617881b5/')}
+            href='https://www.linkedin.com/in/robin-scavo-0617881b5/' target='_blank'
             className="icon fa-linkedin"
+            rel="noreferrer"
           ><span className="label">Linked In</span></a>
         </li>
         <li>

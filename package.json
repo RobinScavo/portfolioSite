@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "portfolio-site",
+  "description": "Robin Scavo portfolio site",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Robin SCavo",
   "dependencies": {
     "gatsby": "^2.20.12",
     "gatsby-plugin-manifest": "^2.3.3",

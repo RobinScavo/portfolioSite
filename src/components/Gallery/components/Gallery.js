@@ -18,6 +18,7 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
       {images && (<div className="row">
         {images.map((obj, i) => {
         return (<GalleryItem
+          key={obj.id}
           id={obj.id}
           source={obj.source}
           thumbnail={obj.thumbnail}
@@ -25,8 +26,6 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
           link={obj.link}
           technologies={obj.technologies}
           description={obj.description}
-          position={obj.position}
-          toggleLightbox={obj.toggleLightbox}
           position={i}
           toggleLightbox={toggleLightbox}
         />);

@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: '/portfolioSite',
   siteMetadata: {
-    title: 'Gatsby Starter - Strata by HTML5 UP',
-    author: 'Hunter Chang',
-    description: 'A Gatsby.js Starter based on Strata by HTML5 UP',
+    title: 'Robin Scavo Portfolio Site',
+    author: 'Robin Scavo',
+    description: 'Robin Scavo Portfolio Site',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

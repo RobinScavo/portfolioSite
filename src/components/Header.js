@@ -6,9 +6,9 @@ import avatar from '../assets/images/avatar.jpg'
 const Header = () => (
   <header id="header">
     <div className="inner">
-      <a href="#" className="image avatar">
-        <img src={avatar} alt="Photo of Robin Scavo" />
-      </a>
+      <div href='https://robinscavo.github.io/portfolioSite/' className="image avatar">
+        <img src={avatar} alt="Robin Scavo" />
+      </div>
       <h1>
         <strong>Robin Scavo </strong>
       </h1>

@@ -14,11 +14,12 @@ const GalleryItem = ({id, source, thumbnail,technologies, link, caption, descrip
             href={source}
             onClick={onClick}
         >
-        <img src={thumbnail} />
+        <img src={thumbnail} alt='project'/>
         </a>
         <a
-            onClick={() => window.open(`${link}`)}
+            href={`${link}`} target='_blank'
             className='projectLink'
+            rel="noreferrer"
         >{caption}</a>
         <p style={{color: '#49bf9d'}}>{technologies}</p>
         <p>{description}</p>
@@ -32,8 +33,8 @@ GalleryItem.propTypes = {
   thumbnail: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
   caption: PropTypes.string.isRequired,
+  technologies: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  position: PropTypes.string.isRequired,
   toggleLightbox: PropTypes.func.isRequired
 }
 
