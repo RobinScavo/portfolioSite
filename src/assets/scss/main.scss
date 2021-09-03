@@ -1592,8 +1592,15 @@
 	}
 
 	#bottomTestimonial {
-		// margin-bottom: -20px;
 		border-bottom: none;
+	}
+
+	.siteLink {
+		align-self: center;
+		border: 3px solid #787878;
+		background-color: #efefef;
+		font-size: 14px;
+		outline: none !important;
 	}
 
 @media screen and (max-width: 480px) {
