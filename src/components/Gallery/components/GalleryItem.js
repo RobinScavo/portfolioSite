@@ -8,7 +8,7 @@ const GalleryItem = ({id, source,title, thumbnail,technologies, link, caption, d
         toggleLightbox(position)
     }, [position, toggleLightbox]);
 
-    return (<article key={id} className="6u 12u$(xsmall) work-item">
+    return (<article key={id} id='projectContainer' className=" 6u 12u$(xsmall) work-item">
         <a
             className="image fit thumb"
             href={source}
@@ -22,7 +22,7 @@ const GalleryItem = ({id, source,title, thumbnail,technologies, link, caption, d
             rel="noreferrer"
         >{title}</a>
         <p style={{color: '#49bf9d'}}>{technologies}</p>
-        <p>{description}</p>
+        <p className='descriptionText'>{description}</p>
     </article>)
 };
 
