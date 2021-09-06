@@ -25,6 +25,7 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
           thumbnail={obj.thumbnail}
           caption={obj.caption}
           link={obj.link}
+          docLink={obj.docLink}
           technologies={obj.technologies}
           description={obj.description}
           position={i}
