@@ -11,7 +11,7 @@ export const DEFAULT_IMAGES = [
       id: '1',
       source: full01,
       thumbnail: thumb01,
-      link: 'https:colorcrusher.herokuapp.com',
+      link: 'https://colorcrusher.herokuapp.com//',
       docLink: 'https://github.com/RobinScavo/color--crusher',
       title: 'Color Crusher',
       caption: `<a href='https:colorcrusher.herokuapp.com' target='blank' class='button siteLink'>Visit Color Crusher</a>`,
