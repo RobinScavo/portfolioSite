@@ -17,6 +17,23 @@ const HomeIndex = () => {
 
       <div id="main">
         <section id="one">
+          <ul className='internalLinks'>
+            <li>
+              <a href="https://docs.google.com/document/d/1t85UlbQteZQY4BHjgfoOR-ycsoqqdy3DtlFalbb8J98/edit" className="button">
+                Recent Work
+              </a>
+            </li>
+            <li>
+              <a href="https://docs.google.com/document/d/1t85UlbQteZQY4BHjgfoOR-ycsoqqdy3DtlFalbb8J98/edit" className="button">
+                Testimonials
+              </a>
+            </li>
+            <li>
+              <a href="https://docs.google.com/document/d/1t85UlbQteZQY4BHjgfoOR-ycsoqqdy3DtlFalbb8J98/edit" className="button">
+                Contact
+              </a>
+            </li>
+          </ul>
           <header className="major">
             <h2>
             Committed to building tools designed to enrich the lives of others.

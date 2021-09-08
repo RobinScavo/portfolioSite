@@ -1007,7 +1007,7 @@
 	#main {
 		margin-left: $size-header-width;
 		max-width: 50em + $size-header-pad;
-		padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
+		padding: ($size-header-pad) $size-header-pad $size-header-pad $size-header-pad;
 		width: calc(100% - #{$size-header-width});
 
 		> section {
@@ -1017,7 +1017,7 @@
 
 			&:first-child {
 				border-top: 0;
-				margin-top: 0;
+				margin-top: 0px;
 				padding-top: 0;
 			}
 		}
@@ -1250,7 +1250,7 @@
 			#main {
 				margin-left: $size-header-width;
 				max-width: none;
-				padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
+				padding: ($size-header-pad) $size-header-pad $size-header-pad $size-header-pad;
 				width: calc(100% - #{$size-header-width});
 			}
 
@@ -1336,7 +1336,7 @@
 
 			#main {
 				margin: 0;
-				padding: ($size-header-pad * 1.5) $size-header-pad;
+				padding: ($size-header-pad) $size-header-pad;
 				width: 100%;
 			}
 
@@ -1443,7 +1443,7 @@
 		/* List */
 
 			ul {
-				&.actions {
+				&.actions  {
 					margin: 0 0 _size(element-margin) 0;
 
 					li {
@@ -1633,6 +1633,21 @@
 
 	#docLink:hover {
 		color: #a2a2a2 !important;
+	}
+
+	.internalLinks {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		height: 100px;
+		width: 100%;
+		// background-color: palegreen;
+		list-style-type: none;
+		padding: 0;
+	}
+
+	.internalLinks li {
+		padding-left: 0;
 	}
 
 @media screen and (max-width: 480px) {
