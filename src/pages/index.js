@@ -5,6 +5,7 @@ import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 import LinkMenu from '../components/InternalLinks/LinkMenu'
 import InternalLink from '../components/InternalLinks/InternalLink'
+import Icon from '../components/Icon'
 
 const HomeIndex = () => {
   const siteTitle = 'Robin Scavo Portfolio'
@@ -27,67 +28,67 @@ const HomeIndex = () => {
           </header>
             <div className='skillRatings'>
               <ul className='skills'>
-                <li><i className="icon fa-chevron-right"></i> React.js </li><br />
-                <li><i className="icon fa-chevron-right"></i> Javascript </li><br />
-                <li><i className="icon fa-chevron-right"></i> HTML5 </li><br />
-                <li><i className="icon fa-chevron-right"></i> (S)CSS </li><br />
-                <li><i className="icon fa-chevron-right"></i> Firebase </li><br />
-                <li><i className="icon fa-chevron-right"></i> Git Hub </li><br />
+                <li><Icon type='fa-chevron-right'/>React.js </li><br />
+                <li><Icon type='fa-chevron-right'/>Javascript </li><br />
+                <li><Icon type='fa-chevron-right'/>HTML5 </li><br />
+                <li><Icon type='fa-chevron-right'/>(S)CSS </li><br />
+                <li><Icon type='fa-chevron-right'/>Firebase </li><br />
+                <li><Icon type='fa-chevron-right'/>Git Hub </li><br />
               </ul>
               <ul className='ratings'>
                 <li>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="empty icon fa-tree"></i>
+                  <Icon type='fa-tree'/>
+                  <Icon type='fa-tree'/>
+                  <Icon type='fa-tree'/>
+                  <Icon type='fa-tree'/>
+                  <Icon type='fa-tree'/>
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' empty={true}/>
                 </li>
                 <li>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="empty icon fa-tree"></i>
-                  <i className="empty icon fa-tree"></i>
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' empty={true}/>
+                  <Icon type='fa-tree' empty={true}/>
                 </li>
                 <li>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="empty icon fa-tree"></i>
-                  <i className="empty icon fa-tree"></i>
-                  <i className="empty icon fa-tree"></i>
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' empty={true}/>
+                  <Icon type='fa-tree' empty={true}/>
+                  <Icon type='fa-tree' empty={true}/>
                 </li>
                 <li>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="empty icon fa-tree"></i>
-                  <i className="empty icon fa-tree"></i>
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' empty={true}/>
+                  <Icon type='fa-tree' empty={true}/>
                 </li>
                 <li>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="empty icon fa-tree"></i>
-                  <i className="empty icon fa-tree"></i>
-                  <i className="empty icon fa-tree"></i>
-                  <i className="empty icon fa-tree"></i>
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' empty={true}/>
+                  <Icon type='fa-tree' empty={true}/>
+                  <Icon type='fa-tree' empty={true}/>
+                  <Icon type='fa-tree' empty={true}/>
                 </li>
                 <li>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="icon fa-tree"></i>
-                  <i className="empty icon fa-tree"></i>
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' />
+                  <Icon type='fa-tree' empty={true}/>
                 </li>
 
               </ul>

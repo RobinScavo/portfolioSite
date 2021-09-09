@@ -1262,6 +1262,10 @@
 
 		$size-header-pad: 4em;
 
+		.topButton {
+			visibility: visible !important;
+		}
+
 		/* Basic */
 
 			h1, h2, h3, h4, h5, h6 {
@@ -1655,6 +1659,7 @@
 		justify-content: flex-start;
 		list-style-type: none;
 		width: 200px;
+		visibility: hidden;
 		// padding-right: 20px;
 		padding-left: 0;
 		// background-color: palegreen;
