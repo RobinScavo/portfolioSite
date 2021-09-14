@@ -1604,7 +1604,7 @@
 	}
 
 	.siteLink {
-		align-self: center;
+		// align-self: center;
 		border: 3px solid #787878;
 		background-color: #efefef;
 		font-size: 14px;
@@ -1612,7 +1612,7 @@
 	}
 
 	.projectLink {
-		font-size: 20px;
+		font-size: 20px !important;
 		color: #a2a2a2,;
 
 	}
@@ -1671,6 +1671,25 @@
 
 	.internalLinks li {
 		padding-left: 0;
+	}
+
+	#liveButton {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #49bf9d;
+		color: #efefef;
+		font-size: 14px;
+		margin: 10px;
+		height: 35px;
+		width: 80px;
+		border-radius: 5px;
+	}
+
+	#liveButton:hover {
+		background-color: #ffffff;
+		border: 3px solid #efefef;
+
 	}
 
 @media screen and (max-width: 480px) {

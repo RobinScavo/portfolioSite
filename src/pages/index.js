@@ -27,6 +27,7 @@ const HomeIndex = () => {
             </h2>
           </header>
             <div className='skillRatings'>
+
               <ul className='skills'>
                 <li><Icon type='fa-chevron-right'/>React.js </li><br />
                 <li><Icon type='fa-chevron-right'/>Javascript </li><br />
@@ -35,6 +36,7 @@ const HomeIndex = () => {
                 <li><Icon type='fa-chevron-right'/>Firebase </li><br />
                 <li><Icon type='fa-chevron-right'/>Git Hub </li><br />
               </ul>
+
               <ul className='ratings'>
                 <li>
                   <Icon type='fa-tree'/>

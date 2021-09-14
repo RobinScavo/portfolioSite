@@ -17,13 +17,24 @@ const GalleryItem = ({id, source,title, thumbnail,technologies, link, docLink, c
             <img src={thumbnail} alt='project'/>
         </a>
 
-        <a
+        <div className='docDiv'>
+            <a
+                href={link} target='_blank'
+                id='liveButton'
+                rel="noreferrer"
+            ><span className="label">View Demo</span>
+            </a>
+        </div>
+
+        <p className='projectLink'>{title}</p>
+
+        {/* <a
             href={`${link}`} target='_blank'
             className='projectLink'
             rel="noreferrer"
-        >{title}</a>
+        >{title}</a> */}
 
-        <p style={{color: '#49bf9d'}}>{technologies}</p>
+        <p>{technologies}</p>
         <p className='descriptionText'>{description}</p>
 
         <div className='docDiv'>
