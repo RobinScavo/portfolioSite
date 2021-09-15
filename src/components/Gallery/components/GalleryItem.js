@@ -26,15 +26,8 @@ const GalleryItem = ({id, source,title, thumbnail,technologies, link, docLink, c
             </a>
         </div>
 
-        <p className='projectLink'>{title}</p>
-
-        {/* <a
-            href={`${link}`} target='_blank'
-            className='projectLink'
-            rel="noreferrer"
-        >{title}</a> */}
-
         <p>{technologies}</p>
+        <p className='projectLink'>{title}</p>
         <p className='descriptionText'>{description}</p>
 
         <div className='docDiv'>

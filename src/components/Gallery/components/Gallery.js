@@ -23,7 +23,7 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
           source={obj.source}
           title={obj.title}
           thumbnail={obj.thumbnail}
-          caption={obj.caption}
+          // caption={obj.caption}
           link={obj.link}
           docLink={obj.docLink}
           technologies={obj.technologies}

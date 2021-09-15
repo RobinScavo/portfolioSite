@@ -13,7 +13,7 @@
 	@import "libs/skel";
 
 	@include skel-breakpoints((
-		xlarge: '(max-width: 1800px)',
+		xlarge: '(max-width: 2000px)',
 		large: '(max-width: 1280px)',
 		medium: '(max-width: 980px)',
 		small: '(max-width: 736px)',
@@ -1684,6 +1684,7 @@
 		height: 35px;
 		width: 80px;
 		border-radius: 5px;
+		border-bottom: none;
 	}
 
 	#liveButton:hover {
