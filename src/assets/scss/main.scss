@@ -4,12 +4,6 @@
 @import '../css/font-awesome.min.css';
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
-/*
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 	@import "libs/skel";
 
 	@include skel-breakpoints((
@@ -81,11 +75,11 @@
 		cursor: pointer;
 		border-bottom: none;
 
-		&:hover {
-			border-bottom-color: transparent;
-			color: _palette(accent1, bg) !important;
-			text-decoration: none;
-		}
+		// &:hover {
+		// 	border-bottom-color: transparent;
+		// 	color: _palette(accent1, bg) !important;
+		// 	text-decoration: none;
+		// }
 	}
 
 
@@ -1604,7 +1598,6 @@
 	}
 
 	.siteLink {
-		// align-self: center;
 		border: 3px solid #787878;
 		background-color: #efefef;
 		font-size: 14px;
@@ -1629,7 +1622,6 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		// width: 300px;
 		padding: 5px;
 	}
 
@@ -1649,7 +1641,6 @@
 		align-items: center;
 		height: 100px;
 		width: 100%;
-		// background-color: palegreen;
 		list-style-type: none;
 		padding: 0;
 	}
@@ -1660,9 +1651,7 @@
 		list-style-type: none;
 		width: 200px;
 		visibility: hidden;
-		// padding-right: 20px;
 		padding-left: 0;
-		// background-color: palegreen;
 	}
 
 	.topButton li {

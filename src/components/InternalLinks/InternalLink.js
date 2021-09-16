@@ -18,7 +18,7 @@ const InternalLink = ({ label, itemName }) => {
                 href={`#${itemName}`}
                 onClick={handleClick}
                 className={`button`}
-                ariaLabel={`Scroll to ${itemName}`}
+                aria-label={`Scroll to ${itemName}`}
             >
                 {label}
             </a>

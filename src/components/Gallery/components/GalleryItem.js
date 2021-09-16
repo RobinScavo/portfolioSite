@@ -1,7 +1,8 @@
 import React, { useCallback } from 'react'
 import PropTypes from 'prop-types'
+// import HoverVideoPlayer from 'react-hover-video-player'
 
-const GalleryItem = ({id, source,title, thumbnail,technologies, link, docLink, caption, description, position, toggleLightbox}) => {
+const GalleryItem = ({id, source, title, thumbnail, technologies, link, docLink, description, position, toggleLightbox}) => {
 
     const onClick = useCallback((e) => {
         e.preventDefault()
@@ -9,6 +10,25 @@ const GalleryItem = ({id, source,title, thumbnail,technologies, link, docLink, c
     }, [position, toggleLightbox]);
 
     return (<article key={id} className="projectContainer 6u 12u$(xsmall) work-item">
+        {/* <HoverVideoPlayer
+            videoSrc='../../../assets/videos/colorCrusher.mp4'
+            pausedOverlay={
+                <img
+                    src={thumbnail}
+                    alt='project'
+                    style={{
+                        width:'100%',
+                        height:'100%',
+                        objectFit:'cover'
+                    }}
+                />
+            }
+            loadingOverlay={
+                <div className='loading-overlay'>
+                    <div className='loading-spinner'/>
+                </div>
+            }
+        /> */}
         <a
             className="image fit thumb"
             href={source}
@@ -51,7 +71,7 @@ GalleryItem.propTypes = {
   thumbnail: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
   docLink: PropTypes.string.isRequired,
-  caption: PropTypes.string.isRequired,
+//   caption: PropTypes.string.isRequired,
   technologies: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   toggleLightbox: PropTypes.func.isRequired,
