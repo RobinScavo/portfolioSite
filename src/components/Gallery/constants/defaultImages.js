@@ -1,10 +1,12 @@
 import full01 from '../../../assets/images/fulls/01.jpg'
 import full02 from '../../../assets/images/fulls/02.jpg'
 import full03 from '../../../assets/images/fulls/03.jpg'
+import full04 from '../../../assets/images/fulls/04.jpg'
 
 import thumb02 from '../../../assets/images/thumbs/02.jpg'
 import thumb01 from '../../../assets/images/thumbs/01.jpg'
 import thumb03 from '../../../assets/images/thumbs/03.jpg'
+import thumb04 from '../../../assets/images/thumbs/04.jpg'
 
 export const DEFAULT_IMAGES = [
     {
@@ -20,6 +22,17 @@ export const DEFAULT_IMAGES = [
     },
     {
       id: '2',
+      source: full04,
+      thumbnail: thumb04,
+      link: 'https://billings-property-management.netlify.app/',
+      docLink: 'https://github.com/RobinScavo/Property-Management',
+      title: 'Billings Property Management',
+      caption: `<a href='https://billings-property-management.netlify.app/' target='blank' class='button siteLink'>Visit Billings Property Management</a>`,
+      technologies: 'HTML5 + CSS3 + JS',
+      description: '- Pixel-perfect recreation of an existing site using the fundamentals of web development.',
+    },
+    {
+      id: '3',
       source: full02,
       thumbnail: thumb02,
       title: 'Custom Github Read-me',
@@ -30,7 +43,7 @@ export const DEFAULT_IMAGES = [
       description: "- Utilized SVG to bypass Github's removal of inline styling to create a unique Read-me.",
     },
     {
-      id: '3',
+      id: '4',
       source: full03,
       thumbnail: thumb03,
       link: 'https://openbook-app.herokuapp.com/',

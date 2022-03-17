@@ -1,6 +1,5 @@
-import React, { useCallback } from 'react'
-import PropTypes from 'prop-types'
-// import HoverVideoPlayer from 'react-hover-video-player'
+import React, { useCallback } from 'react';
+import PropTypes from 'prop-types';
 
 const GalleryItem = ({id, source, title, thumbnail, technologies, link, docLink, description, position, toggleLightbox}) => {
 
